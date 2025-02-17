@@ -9,7 +9,7 @@ void calculate_electricity_bill() {
     float surcharge = 0.0;
 
     printf("Enter Customer Name: ");
-    scanf(" %[^\n]s", customer_name); // Read name with spaces
+    scanf(" %s", customer_name); // Read name with spaces
 
     printf("Enter Customer ID: ");
     scanf("%d", &customer_id);
